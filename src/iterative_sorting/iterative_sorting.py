@@ -26,6 +26,7 @@ def bubble_sort(arr):
     # Your code here
     for i in range(len(arr) - 1):
         for j in range(0, len(arr) - 1 - i, 1):
+            #Compare the first and second item of a collection. If the first item is bigger than the second item, swap the items.
             if arr[j] > arr[j + 1]:
 
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
